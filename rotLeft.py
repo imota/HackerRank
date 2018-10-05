@@ -10,7 +10,6 @@ import sys
 
 
 def rotLeft(a, d):
-    print(type(a[d:] + a[:d]))
     return a[d:] + a[:d]
 
 if __name__ == '__main__':
